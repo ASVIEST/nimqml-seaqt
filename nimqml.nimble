@@ -9,7 +9,7 @@ srcDir        = "src"
 # Deps
 
 requires "nim >= 2.0.0"
-requires "https://github.com/seaqt/nim-seaqt.git"
+requires "https://github.com/seaqt/nim-seaqt.git@#qt-6.4"
 
 task buildExamples, "Build examples":
   exec "nim c examples/helloworld/main"
